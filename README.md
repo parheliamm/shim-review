@@ -191,8 +191,8 @@ No Shim was ever signed to us.
 -------------------------------------------------------------------------------
 ### What is the SHA256 hash of your final SHIM binary?
 -------------------------------------------------------------------------------
-220af16cb67ea54e34263bfc8d50275a21d66e80036b4cb5516d145c8ffd5809:  shim-sel_aarch64.efi
-4dae5b2f24eb0e5d7a96194694fc5a62c1dfb6809f3d1162c86bfe900cc65308:  shim-sel_x86_64.efi
+1a335fb6dbd0b26f7b6f3a11d3899c28fd7527b20d1bfbe1ef1781dadec2a63e  shim-sel_aarch64.efi
+d03c9919a95bd0d0f7410b3980ec069af7b0b6fb7c4102d0813ef076fe34c736  shim-sel_x86_64.efi
 
 -------------------------------------------------------------------------------
 ### How do you manage and protect the keys used in your SHIM?
@@ -214,16 +214,16 @@ On shim, we have:
 
 ```
 sbat,1,SBAT Version,sbat,1,https://github.com/rhboot/shim/blob/main/SBAT.md
-shim,1,UEFI shim,shim,1,https://github.com/rhboot/shim
-shim.sel,1,SUSE Euler Linux,shim,15.6-1.se2,mailto:euler-security@suse.com
+shim,2,UEFI shim,shim,1,https://github.com/rhboot/shim
+shim.sel,1,SUSE Euler Linux,shim,15.6-3.se2,mailto:euler-security@suse.com
 ```
 
 On grub2, we have:
 
 ```
 sbat,1,SBAT Version,sbat,1,https://github.com/rhboot/shim/blob/main/SBAT.md
-grub,1,Free Software Foundation,grub,2.06,https://www.gnu.org/software/grub/
-grub.sel,1,SUSE Euler Linux,grub2,2.06-11.se2,mailto:euler-security@suse.com
+grub,2,Free Software Foundation,grub,2.06,https://www.gnu.org/software/grub/
+grub.sel,1,SUSE Euler Linux,grub2,2.06-14.se2,mailto:euler-security@suse.com
 ```
 
 -------------------------------------------------------------------------------
@@ -234,7 +234,7 @@ grub-core all_video boot cat configfile echo true font gfxmenu gfxterm gzio halt
 -------------------------------------------------------------------------------
 ### What is the origin and full version number of your bootloader (GRUB or other)?
 -------------------------------------------------------------------------------
-grub2-2.06-11.se2
+grub2-2.06-14.se2
 
 -------------------------------------------------------------------------------
 ### If your SHIM launches any other components, please provide further details on what is launched.
@@ -292,4 +292,12 @@ patches.suse/0011-PM-hibernate-require-hibernate-snapshot-image-to-be-.patch
 -------------------------------------------------------------------------------
 ### Add any additional information you think we may need to validate this shim.
 -------------------------------------------------------------------------------
-N/A
+**grub2 & kernel source code**
+
+grub2:
+
+https://github.com/parheliamm/shim-review/blob/sel-2.0-shim-20220909/grub2.tar.gz
+
+kernel:
+
+https://github.com/suseEuler/kernel

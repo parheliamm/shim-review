@@ -1,4 +1,14 @@
 -------------------------------------------------------------------
+Wed Sep  7 02:24:41 UTC 2022 - Chenxi Mao <chenxi.mao@suse.com>
+
+- Import new cert file
+
+-------------------------------------------------------------------
+Wed Aug 24 02:09:30 UTC 2022 - Chenxi Mao <chenxi.mao@suse.com>
+
+- Import new cert file under shim-reviewer's suggestion
+
+-------------------------------------------------------------------
 Thu Jun 30 02:51:29 UTC 2022 - Chenxi Mao <chenxi.mao@suse.com>
 
 - Update to 15.6 to fix CVE-2022-28737

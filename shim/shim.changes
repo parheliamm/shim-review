@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Sat Oct  8 03:17:06 UTC 2022 - Chenxi Mao <chenxi.mao@suse.com>
+
+- Modify the mokutil version to 1:0.6.0.
+
+-------------------------------------------------------------------
 Wed Sep  7 02:24:41 UTC 2022 - Chenxi Mao <chenxi.mao@suse.com>
 
 - Import new cert file

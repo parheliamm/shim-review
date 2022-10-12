@@ -54,7 +54,7 @@
 
 Name:           shim
 Version:        15.6
-Release:        3
+Release:        4
 Summary:        UEFI shim loader
 License:        BSD-2-Clause
 Group:          System/Boot
@@ -117,7 +117,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 # For shim-install script
 Requires:       grub2-%{grubplatform}
 # set-sbat-policy was introduced in mokutil 0.6.0
-Requires:       mokutil >= 0.6.0
+Requires:       mokutil >= 1:0.6.0
 ExclusiveArch:  x86_64 aarch64
 
 Provides:       %{name}-%{shim_provide_arch} = %{version}-%{release}

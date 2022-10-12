@@ -191,8 +191,8 @@ No Shim was ever signed to us.
 -------------------------------------------------------------------------------
 ### What is the SHA256 hash of your final SHIM binary?
 -------------------------------------------------------------------------------
-1a335fb6dbd0b26f7b6f3a11d3899c28fd7527b20d1bfbe1ef1781dadec2a63e  shim-sel_aarch64.efi
-d03c9919a95bd0d0f7410b3980ec069af7b0b6fb7c4102d0813ef076fe34c736  shim-sel_x86_64.efi
+cabe5eecbb1d111b510ea4d48062b558676e1781be0095c4e3a5ac79c129084f  shim-sel_aarch64.efi
+29bcda7b4ad9f84ba718a5bae3725b4e99d94d63bba4c4e713d85470088a9b59  shim-sel_x86_64.efi
 
 -------------------------------------------------------------------------------
 ### How do you manage and protect the keys used in your SHIM?
@@ -215,7 +215,7 @@ On shim, we have:
 ```
 sbat,1,SBAT Version,sbat,1,https://github.com/rhboot/shim/blob/main/SBAT.md
 shim,2,UEFI shim,shim,1,https://github.com/rhboot/shim
-shim.sel,1,SUSE Euler Linux,shim,15.6-3.se2,mailto:euler-security@suse.com
+shim.sel,1,SUSE Euler Linux,shim,15.6-4.se2,mailto:euler-security@suse.com
 ```
 
 On grub2, we have:
@@ -296,7 +296,7 @@ patches.suse/0011-PM-hibernate-require-hibernate-snapshot-image-to-be-.patch
 
 grub2:
 
-https://github.com/parheliamm/shim-review/blob/sel-2.0-shim-20220909/grub2.tar.gz
+https://github.com/parheliamm/shim-review/blob/sel-2.0-shim-20221012/grub2.tar.gz
 
 kernel:
 

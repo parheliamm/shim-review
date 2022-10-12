@@ -12,21 +12,21 @@ Confirm the following are included in your repo, checking each box:
 -------------------------------------------------------------------------------
 ### What is the link to your tag in a repo cloned from rhboot/shim-review?
 -------------------------------------------------------------------------------
-https://github.com/parheliamm/shim-review/tree/sel-2.0-shim-20220909
+https://github.com/parheliamm/shim-review/tree/sel-2.0-shim-20221012
 
 -------------------------------------------------------------------------------
 ### What is the SHA256 hash of your final SHIM binary?
 -------------------------------------------------------------------------------
 aarch64:
-pesign --hash --padding --in usr/share/efi/aarch64/shim-sel.efi 
-hash: 8e481e52d65c42fec6a30d113bce5aa3111e21c6258f4c53b7ef3f9ecd0b92c1
+pesign --hash --padding --in ./shim-sel_aarch64.efi
+hash: 3d10841538d171b1d2b5c347a1ed6ef107b90d1dda96e4e6493d1c06a3aeb565
 
 sha256sum ./shim-sel_aarch64.efi
-875566dc61e22d3a2b6b3b7da7041fd07a8b85223e52b7cef1a403320d0ccab6  shim-sel_aarch64.efi
+cabe5eecbb1d111b510ea4d48062b558676e1781be0095c4e3a5ac79c129084f  ./shim-sel_aarch64.efi
 
 x86_64:
 pesign --hash --padding --in=./shim-sel_x86_64.efi
-hash: 59428c8741644e1e10a80b1355cb0fbaa9d616ccc3d8fd636d9559e40b258c0d
+hash: 90527bff2a7cbe7d43e0819c45f759630a93524f5f8a96838da9cf3573fa1827
 
 sha256sum ./shim-sel_x86_64.efi
-f0526c33694f5d1945b1e628e5e5a47eaa9c4145fb2b7f3ceca251c515baf0fc  shim-sel_x86_64.efi
+29bcda7b4ad9f84ba718a5bae3725b4e99d94d63bba4c4e713d85470088a9b59  ./shim-sel_x86_64.efi

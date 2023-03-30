@@ -256,7 +256,7 @@ grub.sel,1,SUSE Euler Linux,grub2,2.06-17.se21,mailto:euler-security@suse.com
 -------------------------------------------------------------------------------
 ### Which modules are built into your signed grub image?
 *******************************************************************************
-grub-core all_video boot cat configfile echo true font gfxmenu gfxterm gzio halt iso9660 jpeg minicmd normal part_apple part_msdos part_gpt password password_pbkdf2 png reboot search search_fs_uuid search_fs_file search_label sleep test video fat loadenv chain efifwsetup efinet linuxefi btrfs ext2 xfs jfs reiserfs tftp http efinet luks gcry_rijndael gcry_sha1 gcry_sha256 mdraid09 mdraid1x lvm serial
+all_video boot cat configfile echo true font gfxmenu gfxterm gzio halt iso9660 jpeg minicmd normal part_apple part_msdos part_gpt password password_pbkdf2 png reboot search search_fs_uuid search_fs_file search_label sleep test video fat loadenv loopback tftp http luks luks2 gcry_rijndael gcry_sha1 gcry_sha256 gcry_sha512 crypttab chain efifwsetup efinet read tpm tpm2 efinet linuxefi mdraid09 mdraid1x lvm serial
 
 *******************************************************************************
 ### What is the origin and full version number of your bootloader (GRUB or other)?

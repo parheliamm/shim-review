@@ -21,13 +21,13 @@ aarch64:
 pesign --hash --padding --in ./shim-sel_aarch64.efi
 hash: 7f7409b5892ef2cceaf6b3c49841b9868409ae800396d434cfcb4c6911fda78c
 sha256sum ./shim-sel_aarch64.efi
-5a18523dce7bfea880ce831727ab9d7e9a63b64325944986e9131789a398526b  ./shim-sel_aarch64.efi
+29a4ab0db9bbb2428ce166772fcb7567ebc0fde6ec7926e9af59ee28a5e64df3  ./shim-sel_aarch64.efi
 
 x86_64:
 pesign --hash --padding --in=./shim-sel_x86_64.efi
 hash: a5f7876e09efe0ede04de0ccfb43b2492c98112e4e99d4545afbdcb183e43b6e
 sha256sum ./shim-sel_x86_64.efi
-f7a1b26e58217fc4a1dcdf40d6da9223788b09d3ec37c587f51dc7140f2d8874  ./shim-sel_x86_64.efi
+8f9bbbd6470c57de1a5ead3b88d7b3aa5b979106937e631968fa8ebc0a403d96  ./shim-sel_x86_64.efi
 
 *******************************************************************************
 ### What is the link to your previous shim review request (if any, otherwise N/A)?
